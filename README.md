@@ -12,7 +12,15 @@ Este repositorio forma parte del sistema desarrollado para ASODAT, e incluye la 
 
 ---
 
-## 🛠️ Opción 1: Instalación con Composer (recomendado)
+## Opción 1: Instalación con Composer (Por Consola)
+
+> ⚠️ Para este método necesitas tener instalado [Composer](https://getcomposer.org/), el gestor de dependencias para PHP.
+
+### 🔹 Si no tienes Composer instalado:
+
+Puedes descargarlo desde:  
+👉 [https://getcomposer.org/download/](https://getcomposer.org/download/)
+
 
 ```bash
 composer require dompdf/dompdf
