@@ -21,6 +21,7 @@ Este repositorio forma parte del sistema desarrollado para ASODAT, e incluye la 
 Puedes descargarlo desde:  
 👉 [https://getcomposer.org/download/](https://getcomposer.org/download/)
 
+Una vez instalado composer poner la siguiente linea de codigo en la consola:
 
 ```bash
 composer require dompdf/dompdf
