@@ -17,10 +17,13 @@ Este repositorio forma parte del sistema desarrollado para ASODAT, e incluye la 
 ```bash
 composer require dompdf/dompdf
 ```
+
 Luego en tu archivo PHP:
+
 ```bash
 require 'vendor/autoload.php';
 ```
+
 ```bash
 use Dompdf\Dompdf;
 
@@ -31,15 +34,18 @@ $dompdf->render();
 $dompdf->stream('documento.pdf', ["Attachment" => false]);
 ```
 
-##Opción 2: Instalación manual (ZIP)
+## Opción 2: Instalación manual (ZIP)
+
 Si Composer no está disponible, puedes usar Dompdf manualmente así:
+
 1. Descargar el archivo
+
 Puedes descargar el paquete desde su [sitio oficial en GitHub](https://github.com/dompdf/dompdf/releases) 
 
-También puedes usar directamente el archivo subido al proyecto, si ya lo incluíste.
-
 2. Extraer en tu proyecto
+
 Extrae el ZIP en una carpeta dompdf/ dentro de tu proyecto, quedando así:
+
 ```bash
 Proyecto-ASODAT/
 ├── dompdf/
@@ -47,7 +53,9 @@ Proyecto-ASODAT/
 │   └── src/
 ├── generar_pdf.php
 ```
+
 3. Usar Dompdf manualmente
+
 ```bash
 require_once 'dompdf/autoload.inc.php';
 
