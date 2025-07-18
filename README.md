@@ -63,7 +63,7 @@ Proyecto-ASODAT/
 ├── generar_pdf.php
 ```
 
-3. Usar Dompdf manualmente
+3. Ejemplo de Dompdf manualmente
 
 ```bash
 require_once 'dompdf/autoload.inc.php';
